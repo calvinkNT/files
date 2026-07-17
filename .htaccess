@@ -1,0 +1,4 @@
+Header unset Content-Security-Policy
+Header unset Content-Security-Policy-Report-Only
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self'"
+Options -Indexes
